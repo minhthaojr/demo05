@@ -1,5 +1,4 @@
-﻿namespace QLTHUVIEN
-{
+﻿namespace QLTHUVIEN...{
     partial class DOCGIA
     {
         /// <summary>
