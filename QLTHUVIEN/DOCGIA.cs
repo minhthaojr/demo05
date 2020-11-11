@@ -80,7 +80,7 @@ namespace QLTHUVIEN...
         private void button1_Click(object sender, EventArgs e)
         {
             conn.Open();
-            string sqltimkiem = "select * from dmdocgia where madg = '" + quanlitimkiem.Text + "'";
+            string sqltimkiem = "select * from dmdocgia where tendg = '" + quanlitimkiem.Text + "'";
             SqlCommand cmd = new SqlCommand(sqltimkiem, conn);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable cd = new DataTable();
